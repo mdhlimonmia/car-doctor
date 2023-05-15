@@ -10,7 +10,7 @@ const AreaServices = () => {
         .then(res => res.json())
         .then(data => setServices(data));
     },[])
-    console.log(services);
+
     return (
         <div>
             <div className="text-center space-y-5 my-20">
